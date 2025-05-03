@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+body{
+    background-color: rgba(0, 255, 242, 0.939);
+    color: black;
+}
+.one{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+#point-one{
+    background-color: rgba(20, 92, 8, 0.925);
+    color: white;
+    padding: 8px;
+}
+ul, ol{
+    text-align: start;
+}
+li{
+    padding: 8px;
+}
+.one p, .one a{
+    margin: 8px;
+}
+a{
+    background-color: #005efff3;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #0000ffc1;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px;
+}

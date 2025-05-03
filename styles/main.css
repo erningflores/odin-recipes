@@ -1,0 +1,25 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    /*border: 1px black solid;*/
+}
+body{
+    background-color: rgba(0, 255, 242, 0.939);
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+a{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    
+}
+li{
+    padding: 8px;
+    margin: 8px;
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: square;
+}
